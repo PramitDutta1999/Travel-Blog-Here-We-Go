@@ -1,0 +1,7 @@
+global $Connection;
+$ViewQuery="SELECT * FROM admin_panel ORDER BY datetime desc";
+$Execute=mysqli_query($Connection,$ViewQuery);
+if (!$Execute) {
+printf("Error: %s\n", mysqli_error($Connection));
+exit();
+}

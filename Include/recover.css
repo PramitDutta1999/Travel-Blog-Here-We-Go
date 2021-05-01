@@ -1,0 +1,71 @@
+<style type="text/css">
+input[type="text"],input[type="Password"],input[type="email"]{
+	border:1px solid dashed;
+	background-color: rgb(221,216,212);
+	width: 480px;
+	padding: .5em;
+	font-size: 1.0em;
+}
+input[type="Submit"]{
+	color: white;
+	font-size: 1.0em;
+	font-family: Bitter,Georgia,Times,"Times New Roman",serif;
+	width: 200px;
+        height: 40px;
+        background-color:  #5D0580;
+        border: 5px solid ;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-color: rgb(221,216,212);
+        font-weight: bold;
+        float: right;
+	      margin-top: 10px;
+}
+div#centerpage{
+	width: 500px;
+	margin: 0 auto;
+}
+.FieldInfo{
+	color: rgb(251, 174, 44);
+        font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+        font-size: 1em;
+
+}
+a {text-decoration:none;}
+div.message{
+
+	border: 2px solid #c0c0c0;
+	padding-top: 1em;
+	color: white;
+	font-weight: bold;
+	background-color: #dd0000;
+	font-size: 1em;
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+	text-align:center;
+	margin-bottom: 1em;
+
+
+}
+div.SuccessMessage{
+
+	border: 2px solid #c0c0c0;
+	padding-top: 1em;
+	color: white;
+	font-weight: bold;
+	background-color: #00a600;
+	font-size: 1em;
+	margin: 0 auto;
+	width: 400px;
+	height: 40px;
+	text-align:center;
+	margin-bottom: 1em;
+
+
+}
+
+
+</style>
