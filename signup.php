@@ -34,7 +34,7 @@ if(empty($Username) || empty($Email) || empty($Password) || empty($ConfirmPasswo
     $subject="Confirm Account";
     $body='Hi '.$Username.'Here is the link to Active your account
     http://localhost/PHPCMS/active.php?token='.$Token;
-    $SenderEmail="From:duttaanik039@gmail.com";
+    $SenderEmail="From:Your mail addess";
     if (mail($Email, $subject, $body, $SenderEmail)) {
       $_SESSION["SuccessMessage"]="Check Email for Activation.If not found check your spam folder too.";
       Redirect_To("signin.php");
