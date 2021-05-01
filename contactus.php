@@ -92,9 +92,9 @@ if(empty($Name) || empty($Email) || empty($subject) || empty($Body)){
 
                   <!-- First grid -->
                <div>
-                <a href="https://goo.gl/maps/x1tzBgAXxJUQM1u18" target="_blank"><i class="fa fa-map-marker"></i><span class="form-info">  Chittagong,Bangladesh</span><br></a>
-                 <a href="tel:+8801XXXXXXXXXXX" target="_blank"><i class="fa fa-phone" > </i><span class="form-info">  +8801XXXXXXXXXXX</span><br></a>
-                 <a href="mailto:duttaanik039@gmail.com" target="_blank"><i class="fa fa-envelope"></i><span class="form-info">  duttaanik039@gmail.com</span><br></a>
+                 <a href="address_goole_map_link" target="_blank"><i class="fa fa-map-marker"></i><span class="form-info"> Your address</span><br></a>
+                 <a href="tel:your telephone number" target="_blank"><i class="fa fa-phone" > </i><span class="form-info">  Your telephone number</span><br></a>
+                 <a href="mailto:your mail id" target="_blank"><i class="fa fa-envelope"></i><span class="form-info">Your mail id</span><br></a>
                </div>
 
                    <!-- second grid -->
