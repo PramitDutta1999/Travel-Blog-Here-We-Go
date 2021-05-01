@@ -6,7 +6,7 @@
 <h5>Setting Up the database</h5>
 <p>
   1. Clone the repository and install the above mentioned version of XAMPP.<br>
-  2. Copy and paste the repository in xamp location.<br>
+  2. Copy and paste the repository in htdocs which can be found in xamp installation directory.<br>
   3. Start XAMPP, start apache and MySQL. Then, go to your browser and type localhost/phpmyadmin.<br>
   4. Then in left panel click new. Name the database phpcms and create the database.<br> 
   5. Click the import tab and upload phpcms file from Database folder.<br>
@@ -36,7 +36,7 @@
 <h5>Admin Panel Acess</h5>
 <p>
 1. Launch XAMPP and start Apache and MySQL.<br>
-2. Go to browser and type localhost/yourfilename<br>
+2. Go to browser and type localhost/yourfilename/home.php<br>
 3. Select admin from your navigation bar.<br>
 4. Username: admin and password:admin.
 </p>
