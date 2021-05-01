@@ -2,7 +2,7 @@
 <?php require_once("Include/Sessions.php");?>
 <?php require_once("Include/Functions.php");?>
 <?php
-//mail('duttaanik039@gmail.com','testing','this is just a test to check mail','From: duttaanik039@gmail.com');
+//mail('sender mail address','testing','this is just a test to check mail','From: receiver mail address');
 global $Connection;
 if(isset($_POST["Submit"])){
 $Name=mysqli_real_escape_string($Connection,$_POST["Name"]);
@@ -11,8 +11,8 @@ $subject=mysqli_real_escape_string($Connection,$_POST["Subject"]);
 $Body=mysqli_real_escape_string($Connection,$_POST["message"]);
 $body=$Body.
 ' This mail is sent by: '.$Name.' & Email is: '.$Email.' This message is sent for here we go website purpose';
-$emailTo='duttaanik039@gmail.com';
-$headers="From:duttaanik039@gmail.com";
+$emailTo='Sender mail address';
+$headers="From:Receiver mail address";
 if(empty($Name) || empty($Email) || empty($subject) || empty($Body)){
   $_SESSION["ErrorMessage"]="All Fields Required!";
   Redirect_to("contactus.php");
