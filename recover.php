@@ -22,7 +22,7 @@ if(empty($Email)){
     $subject="Reset Password";
     $body='Hi '.$admin['username'].'Here is the link to reset your password
     http://localhost/PHPCMS/reset.php?token='.$admin['token'];
-    $SenderEmail="From:duttaanik039@gmail.com";
+    $SenderEmail="From:Your mail addess";
     if (mail($Email, $subject, $body, $SenderEmail)) {
       $_SESSION["SuccessMessage"]="Check Email for resetting password.If not found check your spam folder too.";
       Redirect_To("signin.php");
