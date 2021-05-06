@@ -2,7 +2,7 @@
 <p>A complete blog website made from scratch. It has the option for user registration. The user can submit their post. An admin panel is also designed to edit/approve any post.It also has the option for comment approval. The post used in the website is just random post used for testing purpose.m</p>
 <h2>Getting Started</h2>
 <p>For building this website I used  XAMPP 3.2.1 earlier version  with PHP 5.6. Latest version of XAMPP with latest version of PHP support only mysqli where I used mysql. In case of latest version of XAMPP and PHP, the PHP code will be unchanged with a little change in mysql command. If you need this version of xamp just let me know: pramitduttaanik@gmail.com</p>
-<h2>Getting Started</h2>
+<h2>How To Set Up</h2>
 <h5>Setting Up the database</h5>
 <p>
   1. Clone the repository and install the above mentioned version of XAMPP.<br>
