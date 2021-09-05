@@ -56,6 +56,7 @@ if(isset($_POST["Submit"])){
         <link rel="stylesheet"href="css/bootstrap.min.css">
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/b1c3598fcf.js" crossorigin="anonymous"></script>
         <link rel="stylesheet"href="css/adminstyles.css">
         <link rel="stylesheet"href="css/publicstyles.css">
     </head>
@@ -109,19 +110,19 @@ if(isset($_POST["Submit"])){
         <h1><span class="FieldInfo">Admin Panel</span></h1>
         <ul id="Side_Menu" class="nav nav-pills nav-stacked">
           <li><a href="dashboard.php">
-          <span class="glyphicon glyphicon-th"></span>
+          <i class="fas fa-align-justify"></i>
           &nbsp;Dashboard</a></li>
           <li><a href="AddNewPost.php">
-          <span class="glyphicon glyphicon-list-alt"></span>
+          <i class="far fa-list-alt"></i>
           &nbsp;Add New Post</a></li>
           <li><a href="Categories.php">
-          <span class="glyphicon glyphicon-tags"></span>
+          <i class="fas fa-tags"></i>
           &nbsp;Categories</a></li>
           <li class="active"><a href="Admins.php">
-          <span class="glyphicon glyphicon-user"></span>
+          <i class="far fa-user"></i>
           &nbsp;Manage Admins</a></li>
           <li><a href="Comments.php">
-          <span class="glyphicon glyphicon-comment"></span>
+          <i class="far fa-comment"></i>
           &nbsp;Comments
 
           <?php
@@ -140,7 +141,7 @@ if(isset($_POST["Submit"])){
         </a>
       </li>
       <li><a href="pendingpost.php">
-      <span class="glyphicon glyphicon-list"></span>
+      <i class="fas fa-list"></i>
       &nbsp;Pending Post
       <?php
       $Connection;
@@ -156,10 +157,10 @@ if(isset($_POST["Submit"])){
       <?php } ?>
     </a></li>
           <li><a href="view_feedback.php">
-          <span class="glyphicon glyphicon-stats"></span>
+          <i class="fas fa-chart-line"></i>
           &nbsp;View Feedback</a></li>
           <li><a href="Logout.php">
-          <span class="glyphicon glyphicon-log-out"></span>
+          <i class="fas fa-sign-out-alt"></i>
           &nbsp;Logout</a></li>
         </ul>
 
