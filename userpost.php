@@ -76,6 +76,7 @@ if(empty($Title)){
         <link rel="stylesheet"href="css/bootstrap.min.css">
         <script src="js/jquery-3.5.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/b1c3598fcf.js" crossorigin="anonymous"></script>
         <link rel="stylesheet"href="css/adminstyles.css">
 				<link rel="stylesheet"href="css/publicstyles.css">
     </head>
@@ -128,19 +129,19 @@ if(empty($Title)){
       <div class="col-sm-2">
 				<h1><span class="FieldInfo">User Panel</span></h1>
         <ul id="Side_Menu" class="nav nav-pills nav-stacked">
-					<li><a href="welcome.php">
-          <span class="glyphicon glyphicon-th"></span>
+          <li><a href="welcome.php">
+          <i class="fas fa-align-justify"></i>
           &nbsp;Welcome</a></li>
           <li><a href="HowToPost.php">
-          <span class="glyphicon glyphicon-list"></span>
+          <i class="fas fa-chalkboard-teacher"></i>
           &nbsp;How to Post</a></li>
           <li class="active"><a href="userpost.php">
-          <span class="glyphicon glyphicon-list-alt"></span>
+          <i class="far fa-list-alt"></i>
           &nbsp;Add New Post</a></li>
           <li><a href="signout.php">
-          <span class="glyphicon glyphicon-log-out"></span>
+          <i class="fas fa-sign-out-alt"></i>
           &nbsp;Signout</a></li>
-				</ul>
+        </ul>
 
       </div><!--Ending of side area -->
 
