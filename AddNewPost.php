@@ -97,10 +97,10 @@ if(empty($Title)){
 							</div>
 
 							<ul class="nav navbar-nav">
-								<li><a href="#" target="_blank">Home</a></li>
+								<li><a href="home.php" target="_blank">Home</a></li>
 								<li><a href="Blog.php?Page=0" target="_blank">Blog</a></li>
-								<li><a href="#" target="_blank">Sign in</a></li>
-								<li><a href="#" target="_blank">Contact Us</a></li>
+								<li><a href="signin.php" target="_blank">Sign in</a></li>
+								<li><a href="contactus.php" target="_blank">Contact Us</a></li>
 								<li><a href="feedback.php" target="_blank">Feedback</a></li>
 								<li><a href="gallery.php" target="_blank">Gallery</a></li>
 								<li><a href="aboutus.php" target="_blank">About Us</a></li>
