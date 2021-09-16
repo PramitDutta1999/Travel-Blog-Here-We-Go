@@ -71,7 +71,7 @@
           <li><a href="AddNewPost.php">
           <i class="far fa-list-alt"></i>
           &nbsp;Add New Post</a></li>
-          <li class="active"><a href="Categories.php">
+          <li><a href="Categories.php">
           <i class="fas fa-tags"></i>
           &nbsp;Categories</a></li>
           <li><a href="Admins.php">
