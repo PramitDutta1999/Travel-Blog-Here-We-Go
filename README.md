@@ -48,4 +48,4 @@
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the LICENSE file for details</p>
 <h2>Acknowledgments</h2>
-<p>This project was completed as part of the **CSE-380: Internet Programming** course at the **Chittagong University of Engineering and Technology**.</p>
+<p>This project was completed as part of the CSE-380: Internet Programming course at the Chittagong University of Engineering and Technology.</p>
